@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Etch-a-Sketch</h1>
+    </header>
+    <main>
+      <biv class="controls">
+        <button value="16" class="control">16x16</button>
+        <button value="32" class="control">32x32</button>
+        <button value="64" class="control">64x64</button>
+        <button class="clear">Clear</button>
+      </biv>
+
+      <div class="container"></div>
+    </main>
+    <footer>
+      <p>
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Stan The Coder
+      </p>
+      <a href="https://github.com/xStanTheCoder" target="_blank">
+        <i class="fa fa-github"></i>
+      </a>
+    </footer>
+  </body>
+</html>
